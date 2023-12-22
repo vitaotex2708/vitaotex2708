@@ -1,5 +1,5 @@
 ### Hi there 👋
-- 🔭 I’m currently working at  <a href="https://nordica.net.br/" target="_blank"><img src="https://nordica.net.br/wp-content/uploads/2018/09/logo-nordica.png" target="_blank"></a>
+- 🔭 I am a Co-Founder and Data Solutions Architect at DWV Soluções Inteligentes  <a href="https://nordica.net.br/(https://www.dwvsolution.com/)" target="_blank"></a>
 - 🌱 I’m currently learning a lot of things.
 - 👯 I’m looking to collaborate with good people. 
 - 💬 Ask me about what you want.
