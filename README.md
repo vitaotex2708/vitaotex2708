@@ -1,5 +1,5 @@
 ### Hi there 👋
-- 🔭 I am a Co-Founder and Data Solutions Architect at DWV Soluções Inteligentes  <a href="https://nordica.net.br/(https://www.dwvsolution.com/)" target="_blank"></a>
+- 🔭 I am a Co-Founder and Data Solutions Architect at <a href="https://www.dwvsolution.com/" target="_blank">DWV Soluções Inteligentes</a>
 - 🌱 I’m currently learning a lot of things.
 - 👯 I’m looking to collaborate with good people. 
 - 💬 Ask me about what you want.
