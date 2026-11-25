@@ -1,0 +1,24 @@
+name: Atualiza últimos textos do blog
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # todo dia, 06:00 em São Paulo
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://www.datawithvitor.com/rss.xml"
+          max_post_count: 5
+          template: "- [$title]($url?utm_source=github&utm_medium=referral&utm_campaign=perfil-github&utm_content=ultimos-textos) — $description $newline"
+          date_format: "dd/mm/yyyy"
+          commit_message: "chore(blog): atualiza últimos textos"
+          committer_username: "github-actions[bot]"
+          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
