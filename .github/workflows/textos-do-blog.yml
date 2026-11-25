@@ -17,7 +17,7 @@ jobs:
         with:
           feed_list: "https://www.datawithvitor.com/rss.xml"
           max_post_count: 5
-          template: "- [$title]($url?utm_source=github&utm_medium=referral&utm_campaign=perfil-github&utm_content=ultimos-textos) — $description $newline"
+          template: "$newline- [$title]($url?utm_source=github&utm_medium=referral&utm_campaign=perfil-github&utm_content=ultimos-textos) — $description"
           date_format: "dd/mm/yyyy"
           commit_message: "chore(blog): atualiza últimos textos"
           committer_username: "github-actions[bot]"
